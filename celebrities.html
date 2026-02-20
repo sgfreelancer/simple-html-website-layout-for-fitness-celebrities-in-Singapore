@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fitness Celebrity Singapore</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+}
+
+header {
+    background: #000;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #00ffcc;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: url('fitness.jpg') center/cover;
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.programs, .achievements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: #222;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.gallery img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.contact input, .contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background: #00ffcc;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: black;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Fitness Celebrity SG</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#programs">Programs</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>John Tan</h2>
+    <p>Singapore Fitness Celebrity & Champion Trainer</p>
+</section>
+
+<section id="about" class="section">
+    <h2>About</h2>
+    <p>
+        John Tan is a leading fitness celebrity in Singapore with over 10 years
+        experience helping clients transform their lives.
+    </p>
+</section>
+
+<section id="achievements" class="section">
+    <h2>Achievements</h2>
+    <div class="achievements">
+        <div class="card">Mr Singapore Champion</div>
+        <div class="card">Certified Elite Trainer</div>
+        <div class="card">Fitness Influencer Award</div>
+    </div>
+</section>
+
+<section id="programs" class="section">
+    <h2>Training Programs</h2>
+    <div class="programs">
+        <div class="card">
+            <h3>Weight Loss</h3>
+            <p>12 week fat loss program</p>
+        </div>
+
+        <div class="card">
+            <h3>Muscle Gain</h3>
+            <p>Strength & hypertrophy training</p>
+        </div>
+
+        <div class="card">
+            <h3>Online Coaching</h3>
+            <p>Remote personal training</p>
+        </div>
+    </div>
+</section>
+
+<section id="gallery" class="section gallery">
+    <h2>Gallery</h2>
+    <img src="photo1.jpg">
+    <img src="photo2.jpg">
+    <img src="photo3.jpg">
+</section>
+
+<section id="contact" class="section contact">
+    <h2>Contact</h2>
+    <input type="text" placeholder="Your Name"><br>
+    <input type="email" placeholder="Your Email"><br>
+    <textarea placeholder="Your Message"></textarea><br>
+    <button>Send Message</button>
+</section>
+
+<footer>
+    <p>© 2026 Fitness Celebrity Singapore</p>
+</footer>
+
+</body>
+</html>
